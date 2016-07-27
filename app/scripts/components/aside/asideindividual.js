@@ -7,7 +7,7 @@ const AsideList = React.createClass({
     // console.log(this.props.card.name);
     return (
       <li className="card-name">
-        <h3><Link to={`/cat/${this.props.index}`}>{this.props.card.name}</Link></h3>
+        <h3><Link className="side-link" to={`/cat/${this.props.index}`}>{this.props.card.name}</Link></h3>
       </li>
     )
   }

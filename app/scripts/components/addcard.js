@@ -22,13 +22,14 @@ const AddCard = React.createClass({
     return (
       <div>
         <Nav />
-        <form onSubmit={this.submitFunction}>
-            <input type="text" placeholder="Enter a cat" ref="name"/>
-            <input type="text" placeholder="Enter color" ref="color"/>
-            <input type="text" placeholder="Enter breed" ref="breed"/>
-            <input type="text" placeholder="Enter feature" ref="feature"/>
-            <input type="text" placeholder="Enter picture url" ref="img"/>
-            <input type="submit" value="Create"/>
+        <form className="login-form" onSubmit={this.submitFunction}>
+            <h2>Add a Cat</h2>
+            <input className="login-input" type="text" placeholder="Enter a cat" ref="name"/>
+            <input className="login-input" type="text" placeholder="Enter color" ref="color"/>
+            <input className="login-input" type="text" placeholder="Enter breed" ref="breed"/>
+            <input className="login-input" type="text" placeholder="Enter feature" ref="feature"/>
+            <input className="login-input" type="text" placeholder="Enter picture url" ref="img"/>
+            <input className="login-submit" type="submit" value="Create"/>
           </form>
       </div>
       )

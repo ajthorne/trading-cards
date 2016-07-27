@@ -9,7 +9,8 @@ const CardsMain = React.createClass({
         <Nav />
         <Aside />
         <div>
-          <p>Click on a cat to start exploring the collection!</p>
+          <h1 className="home-text">Famous Internet Cats</h1>
+          <h2 className="home-text">Click on a cat to start exploring the collection!</h2>
         </div>
       </div>
     )

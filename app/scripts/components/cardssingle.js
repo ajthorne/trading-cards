@@ -16,7 +16,7 @@ const CardSingle = React.createClass({
       <div className="cat-single-container">
           <h2>{cats[i].Name}</h2>
           <img src={cats[i].imgUrl} />
-          <div>
+          <div className="cat-single-copy">
             <p><span>Color: </span>{cats[i].Color}</p>
             <p><span>Breed: </span>{cats[i].Breed}</p>
             <p><span>Distinguishing Feature: </span>{cats[i].Feature}</p>

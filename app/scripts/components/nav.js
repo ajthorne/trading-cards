@@ -4,10 +4,11 @@ const Nav = React.createClass({
   render: function () {
     return (
       <nav>
-        <a href="#login">Login</a> |
-        <a href="#signup"> Sign Up</a> |
-        <a href="#addcard"> Create New Card</a> |
-        <a href="#/"> Home</a>
+        <img className="catlogo" src="http://icons.iconarchive.com/icons/sonya/swarm/256/Cat-icon.png"/>
+        <a className="link" href="#addcard">Create New Card</a>
+        <a className="link" href="#login">Login</a>
+        <a className="link" href="#signup">Sign Up</a>
+        <a className="link" href="#/">Home</a>
       </nav>
     )
   }

@@ -18,11 +18,12 @@ const Signup = React.createClass({
     return (
       <div>
         <Nav/>
-        <form onSubmit={this.submitFunction}>
-            <input type="text" placeholder="Enter name" ref="name"/>
-            <input type="text" placeholder="Enter username" ref="username"/>
-            <input type="password" placeholder="Enter password" ref="password"/>
-            <input type="submit" value="Login"/>
+        <form className="login-form" onSubmit={this.submitFunction}>
+            <h2>Sign Up</h2>
+            <input className="login-input" type="text" placeholder="Enter name" ref="name"/>
+            <input className="login-input" type="text" placeholder="Enter username" ref="username"/>
+            <input className="login-input" type="password" placeholder="Enter password" ref="password"/>
+            <input className="login-submit" type="submit" value="Sign Up"/>
           </form>
       </div>
     )

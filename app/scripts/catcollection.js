@@ -4,7 +4,7 @@ const cats = [{
         Color: 'Gray Tabby, White',
         Breed: 'Scottish Fold',
         Feature: 'Affinity for Boxes',
-        imgUrl: 'https://assets.rbl.ms/4143308/980x.jpg'
+        imgUrl: 'http://1.bp.blogspot.com/_i5lWRDWsh4U/S_vzAT3SpuI/AAAAAAAABzg/iwiX8dpcPo0/s1600/DSC_0909_20100416083158.jpg'
     },
 
     {
@@ -41,7 +41,7 @@ const cats = [{
         Color: 'Orange Tabby, White',
         Breed: 'Domestic Short Hair',
         Feature: 'Mastering the art of happiness',
-        imgUrl: 'https://s-media-cache-ak0.pinimg.com/236x/2e/e9/0f/2ee90f28271b6640229eb2b40a5436e3.jpg'
+        imgUrl: 'http://static.boredpanda.com/blog/wp-content/uploads/2014/05/shironeko-happy-cat-12.jpg'
     }
 ]
 

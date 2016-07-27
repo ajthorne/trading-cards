@@ -18,6 +18,4 @@ const CardRouter = (
 	</Router>
 )
 
-
-
 ReactDOM.render(CardRouter, document.querySelector('.container'))
