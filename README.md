@@ -1,28 +1,17 @@
-# Basic Build with NPM scripts
-This is a project scaffolding and build tool for the TIY Austin Front-End Engineering course. Feel free to use and enjoy! Feedback and PRs welcome!
+#Day 32  --First React Assignment
 
-## Features
-- A bare bones scaffolding for an SPA, without any libraries built in
-- A static server for serving up your dev environment via http
-- `app` directory for development, preloaded with an `index.html`, `scripts/entry.js`, `scss/main.scss` and `assets/`
-- `dist` directory for deployable code
-- es2015 and babel, including module syntax
-- mocha test runner, for support testing modules and react components with es2015 and jsx syntax using enzyme and chai assertion libraries
-- sass (.scss)
+#Trading Cards
 
-## Installation
-- Clone this repo (or fork then clone, if you prefer)
-- Remove the git history by running `rm -rf .git`
-- Set up a new git repo
-- Run `npm install`
-- if you get permission errors you may need to run `sudo npm install` to install a couple global dependencies
+##Process
+1. Map out wireframes, user events, data models, and routes
+2. Break application into user functional components
+3. Code/hook up router with appropriate routes
+4. Code components to piece together main page
 
-## Use
-- `npm install` will scaffold your project AND start the dev server
-- `npm start` will start the dev server and watch for changes
-- `npm test` will run any test files included in the test folder
-- `npm run deploy` will push the content of `dist/` to gh-pages
-- When the server is running, your site will be live on [http://localhost:8080/](http://localhost:8080/)
+##Troubleshooting
+1. Difficulty with rendering dynamic pieces of data to DOM with react
+2. Difficulty with linking dynamic IDs
 
-## Dependencies
-- `sass` [install guide here](http://sass-lang.com/install)
+##How can it grow?
+1. Use backend application or API to render data from rather than using static data
+2. Make the forms actually submit information rather than just console logging
