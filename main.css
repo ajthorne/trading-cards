@@ -1,9 +1,76 @@
-body nav {
-  text-align: right; }
-body ul {
-  float: left; }
-body .cat-single-container {
-  width: 60%;
-  margin: 0 auto; }
+body {
+  font-family: helvetica; }
+  body nav {
+    padding: 1%;
+    background-color: #0089F4;
+    border-bottom: 1px solid black;
+    margin-bottom: 2rem; }
+    body nav .catlogo {
+      width: 6%; }
+    body nav .link {
+      float: right;
+      font-size: 1.4rem;
+      margin-top: 1rem;
+      margin-right: 1rem;
+      padding-right: 0.8rem;
+      color: white; }
+    body nav .link:not(:nth-child(2)) {
+      border-right: 2px solid black; }
+    body nav a {
+      text-decoration: none;
+      color: black; }
+      body nav a:hover {
+        text-decoration: underline; }
+  body .home-text {
+    margin-top: 2.5rem;
+    text-align: center; }
+  body ul {
+    float: left;
+    padding-left: 0.5rem;
+    margin-top: 0; }
+  body .cat-single-container {
+    margin-top: 2rem;
+    width: 40%;
+    margin: 0 auto;
+    border: 4px solid black;
+    text-align: center;
+    background-color: #A0D0F6;
+    border-radius: 5px; }
+    body .cat-single-container .cat-single-copy {
+      text-align: left;
+      margin-left: 8%;
+      font-size: 1.2rem; }
+    body .cat-single-container img {
+      width: 85%;
+      border: 3px solid black;
+      border-radius: 5px; }
+    body .cat-single-container span {
+      font-weight: bold;
+      color: #062B49; }
+  body .card-name {
+    list-style-type: none; }
+    body .card-name a {
+      color: black; }
+      body .card-name a:hover {
+        text-decoration: none; }
+  body .login-form {
+    margin-top: 2rem;
+    width: 45%;
+    margin: 0 auto; }
+    body .login-form h2 {
+      margin-left: 33%; }
+    body .login-form .login-input {
+      display: block;
+      padding: 3%;
+      width: 76%;
+      border: 0;
+      margin-bottom: 0.8rem;
+      background-color: #F2F2F2;
+      font-size: 1.3rem; }
+    body .login-form .login-submit {
+      width: 82%;
+      padding: 3%;
+      border: 0;
+      font-size: 1.3rem; }
 
 /*# sourceMappingURL=main.css.map */
