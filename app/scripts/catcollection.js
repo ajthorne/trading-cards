@@ -31,7 +31,7 @@ const cats = [{
         Color: 'Gray Tabby, White',
         Breed: 'Domestic Short Hair',
         Feature: 'Perma-kitten',
-        imgUrl: 'https://lilbub.com/uploads/images/about5.jpg'
+        imgUrl: 'http://lilbub.com/uploads/images/about5.jpg'
 
     },
 
@@ -41,7 +41,7 @@ const cats = [{
         Color: 'Orange Tabby, White',
         Breed: 'Domestic Short Hair',
         Feature: 'Mastering the art of happiness',
-        imgUrl: 'https://static.boredpanda.com/blog/wp-content/uploads/2014/05/shironeko-happy-cat-12.jpg'
+        imgUrl: 'http://static.boredpanda.com/blog/wp-content/uploads/2014/05/shironeko-happy-cat-12.jpg'
     }
 ]
 
